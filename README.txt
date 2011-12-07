@@ -9,7 +9,7 @@ Widget for www.youguysshouldlunch.com.
 
 == Description ==
 
-This plugin provides a widget for the swedish LinkedIn lunch match making site http://www.youguysshouldlunch.com.
+This plugin provides a widget for the LinkedIn lunch match making site http://www.youguysshouldlunch.com.
 
 Read more about how to use this widget on http://www.youguysshouldlunch.com/widget.
 
