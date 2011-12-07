@@ -83,7 +83,7 @@ class YouguysshouldlunchWidget extends WP_Widget {
     echo sprintf( '<div class="%s">', $widget_classes );
 
     echo $before_title;
-    echo 'Lunchaihop';
+    echo 'You guys should lunch';
     echo $after_title;
 
     echo sprintf ( '<a href="http://www.youguysshouldlunch.com"><img class="widget-youguysshouldlunch-logo" src="%s" alt="You guys should lunch"></a>', plugins_url( 'img/youguysshouldlunch-logo.png' , __FILE__ ) );
@@ -92,7 +92,7 @@ class YouguysshouldlunchWidget extends WP_Widget {
       echo '<p class="widget-youguysshouldlunch-wishlist">'.__( 'My lunch wishlist:', 'YouguysshouldlunchWidget' ).'<br>'.$lunch_dates.'</p>';
     }
 
-    echo __( 'Who should I <a href="http://www.youguysshouldlunch.com">lunch with</a>?', 'YouguysshouldlunchWidget' );
+    echo '<p>' . __( 'Who should I <a href="http://www.youguysshouldlunch.com">lunch with</a>?', 'YouguysshouldlunchWidget' ) . '</p>';
 
     if ( !empty( $linkedin_url ) ) {
       if ( !empty( $your_name ) ) {
