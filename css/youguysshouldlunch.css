@@ -1,0 +1,23 @@
+.widget-youguysshouldlunch-clearfix:before,
+.widget-youguysshouldlunch-clearfix:after {
+	content: "";
+	display: table;
+}
+
+.widget-youguysshouldlunch-clearfix:after {
+	clear: both;
+}
+
+.widget-youguysshouldlunch-clearfix {
+	*zoom: 1;
+}
+
+.widget-youguysshouldlunch-background {
+	background: #FFF9E5;
+	padding: 10px;
+}
+
+.widget-youguysshouldlunch-clearfix img {
+	float: right;
+	margin: 0 0 0 15px;
+}
